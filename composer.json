@@ -1,0 +1,19 @@
+{
+    "name": "scriptlodges/promail-tracking",
+    "description": "Promail product, order, shippment tracking for Magento 2 by Scriptlodge",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "magento/framework": ">100.0",
+        "magento/module-quote": ">100.0"
+    },
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Scriptlodges\\PromailTracking\\": ""
+        }
+    }
+}
